@@ -95,6 +95,11 @@ module.exports = {
         source:"/api/get/fetchFollowing/:id",
         destination:"http://localhost:5000/api/get/getSingleUserFollowing/:id"
       }
+      ,
+      {
+        source:"/api/get/fetchFollowing",
+        destination:"http://localhost:5000/api/get/followingFeed"
+      }
     ]
   },
 }

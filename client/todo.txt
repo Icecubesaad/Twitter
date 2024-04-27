@@ -1,0 +1,3 @@
+create follow and for you section in the home/tweets
+create followed and for you routes
+make a scheme to record users interests.
